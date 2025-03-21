@@ -19,8 +19,6 @@ const App = () => {
       text:inputTask,
       completedTask:false
     }
-    //hago un spread para crear un nuevo array con lo anterior y luego añadir la nueva task
-    //porque es mejor en React ya que necesita un nuevo array para detectar y actualizar correctamente el cambio en UI
     setTasks([...tasks, newTask]);  
   }
 
